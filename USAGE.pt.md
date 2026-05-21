@@ -54,18 +54,18 @@ A **Reina-Valera 1909** já está gerada, validada e pronta para importar.
 ### Passo 2: Importar no Holyrics
 
 1. Abra o **Holyrics**.
-2. No canto superior direito, clique no ícone de **⚙ engrenagem**.
-3. Acesse **"Configurações"** (ou **"Settings"** se estiver em inglês).
-4. No painel esquerdo, encontre **"Bíblias"** e clique nela.
-5. Clique no botão **"Importar"** ou **"Adicionar versão da Bíblia"**.
-6. Selecione o arquivo `rv1909.xml` que você baixou.
-7. O Holyrics vai processá-lo (10-30 segundos).
-8. Quando terminar, você verá **"Reina-Valera 1909"** na lista de versões disponíveis.
+2. Na tela principal, clique em **"Ir para a Bíblia"** (em espanhol: "Ir a la Biblia").
+3. Na barra de menu superior, clique no menu **"Versão"**.
+4. Acesse **"Importar"** → **"Zefania XML"**.
+5. Procure e selecione o arquivo `rv1909.xml` que você baixou.
+6. Abre-se um diálogo **"Importar - Bíblia"** com os campos ID, Nome, Idioma e Descrição já preenchidos (o Holyrics os lê do bloco `<INFORMATION>` do XML). Clique em **"Ok"**.
+7. O Holyrics processa o arquivo (10-30 segundos).
+8. Quando terminar, a versão fica disponível no dropdown de versões, agrupada por idioma.
 
 ### Passo 3: Testar
 
-1. Na tela principal do Holyrics, encontre a seção **"Bíblia"**.
-2. Mude a versão selecionada para **"Reina-Valera 1909"**.
+1. Na visualização da Bíblia, clique na **setinha do dropdown de versão** (no canto superior esquerdo, ao lado da versão atual).
+2. Sob a seção **"Espanhol"** selecione **"Reina-Valera 1909"**.
 3. Procure, por exemplo, **João 3:16** — você deve ver:
    > Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.
 
@@ -179,20 +179,20 @@ shasum -a 256 output/public-domain/rv1909.xml > output/public-domain/rv1909.xml.
 
 ## Caso 3: Quero a ACF, ARC, NAA ou outra versão moderna
 
-⚠️ **Antes de continuar, leia [LEGAL.md](LEGAL.md).** Versões modernas
+⚠️ **Antes de continuar, leia [LEGAL.pt.md](LEGAL.pt.md).** Versões modernas
 (ACF, ARC, NAA, NVI, NTLH, etc.) têm **direitos autorais** da editora que
 as publicou. A política de citações (500-1.100 versículos conforme a
 editora) cobre a projeção de versículos individuais no culto, mas **não
 cobre manter uma cópia digital completa** nem redistribuir o arquivo. Na
 prática as editoras raramente perseguem o uso eclesial interno, mas
 formalmente não está autorizado e depende da doutrina de fair use / uso
-justo da sua jurisdição. Veja [LEGAL.md §3](LEGAL.md) para a análise completa.
+justo da sua jurisdição. Veja [LEGAL.pt.md §3](LEGAL.pt.md) para a análise completa.
 
 Este repositório **não inclui ferramentas** para baixar versões com
 direitos autorais de sites que não as publicam explicitamente (BibleGateway,
 YouVersion, etc.) — seus termos de serviço proíbem acesso automatizado e,
 mesmo se fosse tecnicamente possível, redistribuir o arquivo resultante
-seria infração de direitos autorais (veja [LEGAL.md §4](LEGAL.md)).
+seria infração de direitos autorais (veja [LEGAL.pt.md §4](LEGAL.pt.md)).
 
 ### O caminho correto
 

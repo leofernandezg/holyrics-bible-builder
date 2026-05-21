@@ -40,19 +40,18 @@ As 6 versões mais usadas em espanhol, português e inglês cuja licença permit
 | World English Bible | Inglês | 2020 | Domínio público (dedicado) | [`output/public-domain/web.xml`](output/public-domain/web.xml) |
 | Young's Literal Translation | Inglês | 1898 | Domínio público | [`output/public-domain/ylt.xml`](output/public-domain/ylt.xml) |
 
-Todas validadas estruturalmente e **caractere por caractere contra a fonte original em [ebible.org](https://ebible.org)**. Veja [LEGAL.md](LEGAL.md) para detalhes de cada licença.
+Todas validadas estruturalmente e **caractere por caractere contra a fonte original em [ebible.org](https://ebible.org)**. Veja [LEGAL.pt.md](LEGAL.pt.md) para detalhes de cada licença.
 
 > ⚠️ Versões modernas como **RVC, RVR1960, NVI, ARC, NAA, ACF** têm direitos
 > autorais e **não estão incluídas aqui**. Se você quer gerá-las para uso
 > interno da sua igreja, existe um caminho documentado em [USAGE.pt.md](USAGE.pt.md),
-> mas **leia [LEGAL.md](LEGAL.md) primeiro** para entender as implicações.
+> mas **leia [LEGAL.pt.md](LEGAL.pt.md) primeiro** para entender as implicações.
 
 ## Quero importar a RV1909 no Holyrics (rápido)
 
 1. Baixe o arquivo [`output/public-domain/rv1909.xml`](output/public-domain/rv1909.xml).
-2. Abra o Holyrics → ⚙ (engrenagem) → **Configurações** → **Bíblias** → **Importar**
-   (ou **"Adicionar versão da Bíblia" → "Importar"** em PT).
-3. Escolha o arquivo `rv1909.xml`. Pronto.
+2. Abra o Holyrics → **"Ir para a Bíblia"** → menu **"Versão"** → **"Importar"** → **"Zefania XML"**.
+3. Escolha o `rv1909.xml` e clique em **Ok** no diálogo de importação. Pronto — a versão fica disponível no dropdown de versões.
 
 Travou? O guia passo-a-passo (para quem não é técnico) está em
 **[USAGE.pt.md](USAGE.pt.md)**.
@@ -67,7 +66,7 @@ ela se gera com um único comando. Veja
 
 - **[USAGE.pt.md](USAGE.pt.md)** — Guia passo-a-passo de instalação e uso,
   feito para gente não técnica.
-- **[LEGAL.md](LEGAL.md)** — Análise de direitos autorais: quais versões
+- **[LEGAL.pt.md](LEGAL.pt.md)** — Análise de direitos autorais: quais versões
   podem ser redistribuídas e quais não. **Leitura obrigatória** antes de
   publicar qualquer coisa.
 - **[LICENSE](LICENSE)** — MIT (apenas para o código; os textos bíblicos têm

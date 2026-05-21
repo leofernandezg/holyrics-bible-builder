@@ -39,18 +39,18 @@ The 6 most widely used translations in Spanish, Portuguese and English whose lic
 | World English Bible | English | 2020 | Public domain (dedicated) | [`output/public-domain/web.xml`](output/public-domain/web.xml) |
 | Young's Literal Translation | English | 1898 | Public domain | [`output/public-domain/ylt.xml`](output/public-domain/ylt.xml) |
 
-All structurally validated and **character-by-character against the original source on [ebible.org](https://ebible.org)**. See [LEGAL.md](LEGAL.md) for license details.
+All structurally validated and **character-by-character against the original source on [ebible.org](https://ebible.org)**. See [LEGAL.en.md](LEGAL.en.md) for license details.
 
 > ⚠️ Modern translations like **RVC, RVR1960, NIV, NLT, NASB** are copyrighted
 > and **not included here**. If you want to generate them for your church's
 > internal use, there is a documented path in [USAGE.md](USAGE.en.md), but
-> **read [LEGAL.md](LEGAL.md) first** to understand the implications.
+> **read [LEGAL.en.md](LEGAL.en.md) first** to understand the implications.
 
 ## I just want to import RV1909 into Holyrics (quick)
 
 1. Download [`output/public-domain/rv1909.xml`](output/public-domain/rv1909.xml).
-2. Open Holyrics → ⚙ (gear icon) → **Settings** → **Bibles** → **Import**.
-3. Select the `rv1909.xml` file. Done.
+2. Open Holyrics → **"Go to Bible"** → **"Version"** menu → **"Import"** → **"Zefania XML"**.
+3. Pick `rv1909.xml` and click **Ok** in the import dialog. Done — the translation appears in the version dropdown.
 
 Stuck? The step-by-step guide (written for non-technical users) lives in
 **[USAGE.en.md](USAGE.en.md)**.
@@ -64,7 +64,7 @@ it generates with a single command. See **[USAGE.en.md → "Generate another tra
 
 - **[USAGE.en.md](USAGE.en.md)** — Step-by-step install/usage guide for
   non-technical users.
-- **[LEGAL.md](LEGAL.md)** — Copyright analysis: which translations are safe
+- **[LEGAL.en.md](LEGAL.en.md)** — Copyright analysis: which translations are safe
   to redistribute and which are not. **Required reading** before publishing.
 - **[LICENSE](LICENSE)** — MIT (code only; Bible texts have their own licenses).
 

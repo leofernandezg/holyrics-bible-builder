@@ -49,8 +49,8 @@ Todas validadas estructuralmente y **carácter por carácter contra la fuente or
 ## Quiero importar la RV1909 en Holyrics (rápido)
 
 1. Descargá el archivo [`output/public-domain/rv1909.xml`](output/public-domain/rv1909.xml).
-2. Abrí Holyrics → ⚙ (engranaje) → **Settings** → **Bibles** → **Import**.
-3. Elegí el archivo `rv1909.xml`. Listo.
+2. Abrí Holyrics → **"Ir a la Biblia"** → menú **"Versión"** → **"Importar"** → **"Zefania XML"**.
+3. Elegí el archivo `rv1909.xml` y dale **Ok** en el diálogo de importación. Listo — queda disponible en el dropdown de versiones.
 
 ¿Te complicaste? La guía paso a paso (con instrucciones para gente que no es
 técnica) está en **[USAGE.md](USAGE.md)**.
