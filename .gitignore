@@ -1,0 +1,70 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# COPYRIGHT-PROTECTED ARTIFACTS — NEVER COMMIT
+# ──────────────────────────────────────────────────────────────────────────────
+# Cache HTML/USFX/etc. de fuentes externas. Algunas tienen copyright (BibleGateway,
+# editores comerciales) y otras no (ebible.org), pero por defecto NO commiteamos
+# nada del cache — el pipeline lo regenera cuando hace falta.
+sources/biblegateway-cache/
+sources/*-cache/
+sources/raw/
+**/biblegateway-cache/
+**/ebible-cache/
+
+# XML de salida de versiones con copyright. Solo se commitea lo que está
+# en output/public-domain/.
+output/rvc.xml
+output/rvc.xml.sha256
+output/rvr1960.xml
+output/nvi.xml
+output/ntv.xml
+output/lbla.xml
+output/dhh.xml
+output/pdt.xml
+output/nbla.xml
+output/nbv.xml
+output/tla.xml
+output/*.bib
+
+# Path local de BibleGateway → RVC: scripts y artefactos que existen solo
+# en la máquina del mantenedor y no deben publicarse (ver LEGAL.md sobre
+# los ToS de BibleGateway). Si los tenés locales para uso interno, quedan
+# fuera de git.
+scripts/scrape_biblegateway.py
+scripts/extract_verses.py
+scripts/build_xml.py
+scripts/test_fidelity.py
+
+# Documentación interna de desarrollo (notas de Claude Code, planes de
+# diseño, decisiones históricas). No es necesaria para usar el pipeline.
+CLAUDE.md
+**/CLAUDE.md
+plans/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Sistema y editores
+# ──────────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Logs y temporales
+# ──────────────────────────────────────────────────────────────────────────────
+*.log
+/tmp/
+fidelity-*.json
