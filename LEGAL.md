@@ -1,5 +1,7 @@
 # Marco legal — leer antes de usar
 
+**🇪🇸 Español (estás acá)** · [🇬🇧 English](LEGAL.en.md) · [🇵🇹 Português](LEGAL.pt.md)
+
 > **Disclaimer:** este documento es un análisis informativo, **no es asesoramiento legal**.
 > Si tenés dudas sobre un caso particular, consultá con un abogado o directamente
 > con el titular del copyright de la versión que querés usar.
@@ -188,7 +190,7 @@ Todas las URLs de esta sección están verificadas al 2026-05-21. Si encontrás 
 
 ### Tratados internacionales y legislación
 
-- **[Convenio de Berna para la Protección de las Obras Literarias y Artísticas](https://www.wipo.int/treaties/es/ip/berne/)** (WIPO, texto en español) — Base del régimen internacional de copyright. Artículos relevantes citados en la sección 1: Art. 2(3) (traducciones como obras protegidas), Art. 5(1) (protección automática sin registro), Art. 7(1) (plazo mínimo de vida + 50 años).
+- **[Convenio de Berna para la Protección de las Obras Literarias y Artísticas](https://www.wipo.int/treaties/es/ip/berne/)** (WIPO, texto en español) — Base del régimen internacional de copyright. Artículos relevantes citados en la sección 1: Art. 2(3) (traducciones como obras protegidas), Art. 5(2) (protección automática sin formalidad), Art. 7(1) (plazo mínimo de vida + 50 años).
 - **[Ley 11.723 — Régimen Legal de la Propiedad Intelectual (Argentina)](https://servicios.infoleg.gob.ar/infolegInternet/anexos/40000-44999/42755/texact.htm)** (InfoLEG, texto vigente) — Art. 5: el copyright dura la vida del autor más **70 años** después del 1° de enero del año siguiente a su muerte. Para obras en colaboración, el plazo corre desde la muerte del último colaborador. Es el plazo aplicable en Argentina y similar en la UE y EE.UU. para obras pos-1978.
 - **[Copyright Term and the Public Domain in the United States](https://copyright.cornell.edu/publicdomain)** (Cornell University Library, chart de Peter B. Hirtle, autoridad clásica) — Tabla canónica para determinar si una obra está en dominio público en EE.UU. Regla actual: **toda obra publicada antes de 1931** está en el dominio público estadounidense al 1° de enero de 2026 (el cutoff avanza un año cada 1° de enero). Mirror espejo siempre disponible: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Hirtle_chart).
 

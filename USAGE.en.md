@@ -54,19 +54,18 @@ copy-and-paste of commands.
 ### Step 2: Import into Holyrics
 
 1. Open **Holyrics**.
-2. At the top right, click the **⚙ gear icon**.
-3. Go to **"Settings"**.
-4. In the left panel, find **"Bibles"** and click on it.
-5. Click the **"Import"** button.
-6. Select the `rv1909.xml` file you downloaded.
-7. Holyrics will process it (10-30 seconds).
-8. When done, you'll see **"Reina-Valera 1909"** in the list of available
-   translations.
+2. On the main screen, click **"Go to Bible"** (in Spanish: "Ir a la Biblia").
+3. In the top menu bar, click the **"Version"** menu.
+4. Go to **"Import"** → **"Zefania XML"**.
+5. Browse to and select the `rv1909.xml` file you downloaded.
+6. A dialog **"Import - Bible"** opens with the ID, Name, Language and Description fields pre-filled (Holyrics reads them from the `<INFORMATION>` block of the XML). Click **"Ok"**.
+7. Holyrics processes the file (10-30 seconds).
+8. When done, the translation is available in the version dropdown, grouped by language.
 
 ### Step 3: Test it
 
-1. On the main Holyrics screen, find the **"Bible"** section.
-2. Switch the selected translation to **"Reina-Valera 1909"**.
+1. In the Bible view, click the **version dropdown arrow** (top left, next to the current version).
+2. Under the **"Spanish"** section, select **"Reina-Valera 1909"**.
 3. Look up, for example, **John 3:16** — you should see:
    > Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.
 
@@ -180,20 +179,20 @@ shasum -a 256 output/public-domain/rv1909.xml > output/public-domain/rv1909.xml.
 
 ## Case 3: I want a modern, copyrighted translation
 
-⚠️ **Before continuing, read [LEGAL.md](LEGAL.md).** Modern translations
+⚠️ **Before continuing, read [LEGAL.en.md](LEGAL.en.md).** Modern translations
 (RVC, RVR1960, NIV, NLT, NASB, etc.) are **copyrighted** by their respective
 publishers. The standard quotation allowance (500-1,000 verses depending on
 the publisher) covers projecting individual verses during worship, but it
 **does not cover keeping a complete digital copy** nor redistributing the
 file. In practice publishers rarely pursue internal church use, but it is
 not formally authorized and depends on your jurisdiction's fair use / fair
-dealing doctrine. See [LEGAL.md §3](LEGAL.md) for the full analysis.
+dealing doctrine. See [LEGAL.en.md §3](LEGAL.en.md) for the full analysis.
 
 This repository **does not include tools** to download copyrighted
 translations from sites that don't publish them explicitly (BibleGateway,
 YouVersion, etc.) — their terms of service prohibit automated access and,
 even if technically possible, redistributing the resulting file would be
-copyright infringement (see [LEGAL.md §4](LEGAL.md)).
+copyright infringement (see [LEGAL.en.md §4](LEGAL.en.md)).
 
 ### The proper path
 

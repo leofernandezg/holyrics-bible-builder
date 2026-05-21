@@ -54,18 +54,18 @@ La **Reina-Valera 1909** ya está generada, validada y lista para importar.
 ### Paso 2: Importar en Holyrics
 
 1. Abrí **Holyrics**.
-2. Arriba a la derecha, hacé clic en el ícono de **⚙ engranaje**.
-3. En el menú, andá a **"Settings"** (o **"Configurações"** si está en portugués).
-4. En el panel izquierdo, buscá **"Bibles"** / **"Bíblias"** y hacé clic.
-5. Hacé clic en el botón **"Import"** / **"Importar"** / **"Adicionar versão da Bíblia"**.
-6. Buscá el archivo `rv1909.xml` que descargaste y abrilo.
-7. Holyrics lo va a procesar (puede tardar 10-30 segundos).
-8. Cuando termine, vas a ver **"Reina-Valera 1909"** en la lista de versiones disponibles.
+2. En la pantalla principal, hacé clic en **"Ir a la Biblia"** (o **"Ir a Holyrics"** según la versión).
+3. En la barra superior, hacé clic en el menú **"Versión"**.
+4. Andá a **"Importar"** → **"Zefania XML"**.
+5. Buscá y seleccioná el archivo `rv1909.xml` que descargaste.
+6. Se abre un diálogo **"Importar - Biblia"** con los campos ID, Nombre, Idioma y Descripción ya completados (Holyrics los lee del bloque `<INFORMATION>` del XML). Hacé clic en **"Ok"**.
+7. Holyrics procesa el archivo (10-30 segundos).
+8. Cuando termina, la versión queda disponible en el dropdown de versiones, agrupada por idioma.
 
 ### Paso 3: Probarlo
 
-1. En la pantalla principal de Holyrics, buscá la sección **"Bible"** / **"Bíblia"**.
-2. Cambiá la versión seleccionada a **"Reina-Valera 1909"**.
+1. En la vista de Biblia, hacé clic en la **flechita del dropdown de versión** (arriba a la izquierda, al lado de la versión actual).
+2. Bajo la sección **"Español"** seleccioná **"Reina-Valera 1909"**.
 3. Buscá, por ejemplo, **Juan 3:16** — debería aparecer:
    > Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.
 
